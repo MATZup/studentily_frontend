@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  font-family: "Montserrat", "sans-serif";
+}
+
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 23px;
+}
+
+
+.thumb {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 20%;
+  background-color: #726AB1
+}
+
+
+.thumb_green {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 20%;
+  background-color: #62c46d;
+}
+
+/* Hide scrollbar background */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Background of scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Style of scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+
+  background-clip: content-box;
+}
+
+
+#custom_scrollbar::-webkit-scrollbar {
+  width: 8px;
+  margin-left: 20px;
+}
+
+#custom_scrollbar::-webkit-scrollbar-thumb {
+  background-color: #726AB1;
+  border-radius: 10px;
+}
+
+#custom_scrollbar::-webkit-scrollbar-track {
+  background-color: #2D3046;
+  border-radius: 10px;
+}
+
+.comment-field {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+}
+
+.comment-field.open {
+  max-height: 50px;
+}
+
+
+
