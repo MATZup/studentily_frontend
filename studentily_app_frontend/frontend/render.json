@@ -1,0 +1,25 @@
+{
+  "services": [
+    {
+      "name": "studentily-frontend",
+      "github": {
+        "repo": "MATZup/studentily_frontend",
+        "branch": "main"
+      },
+      "env": [
+        {
+          "key": "PORT",
+          "value": "8000"
+        }
+      ],
+      "buildCommand": "npm install",
+      "startCommand": "npm run dev",
+      "envVars": [
+        {
+          "key": "NODE_ENV",
+          "value": "production"
+        }
+      ]
+    }
+  ]
+}
