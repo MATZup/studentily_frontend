@@ -57,7 +57,7 @@ export default function Login({ setIsAuthenticated }) {
 
   return (
     <div>
-      <div className="max-1200:mt-[8.5rem] max-580:mt-[10rem] max-385:mt-[10.5rem] w-full max-1060:flex-col max-1060:justify-center max-1060:items-center absolute mt-14 top-0 left-1/2 transform -translate-x-1/2 pb-1 flex items-end justify-center mb-12">
+      <div className="max-580:hidden max-1200:mt-[8.5rem] max-580:mt-[10rem] max-385:mt-[10.5rem] w-full max-1060:flex-col max-1060:justify-center max-1060:items-center absolute mt-14 top-0 left-1/2 transform -translate-x-1/2 pb-1 flex items-end justify-center mb-12">
         <img
           src={appLogo}
           className="max-580:w-[21rem] max-385:w-[17.5rem] max-327:w-[15.5rem] max-350:w-[16.5rem] max-465:w-[19rem] w-[23rem] max-1060:ml-8 mr-3"
@@ -73,7 +73,7 @@ export default function Login({ setIsAuthenticated }) {
           alt=""
           className="fixed -bottom-[2rem] -left-[24rem] max-1250:w-[82.5rem] max-960:w-[75rem] max-730:w-[58rem] max-650:w-[56rem] max-580:w-[56rem] max-500:w-[55.5rem] max-385:w-[51rem] z-[-50] max-w-[63rem] overflow-hidden pl-16 pr-16"
         />
-        <div className="flex max-1200:mt-[7.2rem] max-1200:flex-col mt-[11.7rem]">
+        <div className="flex max-1200:mt-[7.2rem] max-1200:flex-col mt-[11.7rem] max-580:mt-0">
           <div className="max-w-96 max-385:mx-5 max-465:mx-7 mt-12 max-1200:mt-0 h-[21.4rem] bg-[#2D3046] rounded px-7 py-10">
             <form onSubmit={loginHandler} action="">
               <h3 className="text-2xl text-white font-medium mb-7">Login</h3>
