@@ -138,7 +138,7 @@ export default function JournalPage() {
         className="fixed -bottom-2 -left-[14rem] max-1250:w-[82.5rem] max-960:w-[79rem] max-767:w-[73rem] max-650:w-[70rem] max-465:w-[66rem] max-385:w-[63rem] max-350:w-[64rem] z-[-50] max-w-[89rem] overflow-hidden pl-16 pr-16 aspect-[16/9]"
       />
 
-      <div className="absolute left-0 top-0 p-8">
+      <div className="max-580:hidden absolute left-0 top-0 p-8">
         <FontAwesomeIcon
           onClick={() => navigate("/")}
           className="w-[2.1rem] h-[2.1rem] cursor-pointer"
