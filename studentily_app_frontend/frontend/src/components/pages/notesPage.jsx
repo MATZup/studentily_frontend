@@ -103,7 +103,7 @@ export default function NotesPage() {
         className="fixed -bottom-1 -right-[38rem] max-960:w-[79rem] max-767:w-[74rem] max-650:w-[70rem] max-465:w-[64rem] max-385:w-[61rem] max-350:w-[59rem] z-[-50] max-w-[84rem] overflow-hidden pl-16 pr-16 aspect-[16/9]"
       />
 
-      <div className="fixed left-0 top-0 p-8">
+      <div className="max-580:hidden fixed left-0 top-0 p-8">
         <FontAwesomeIcon
           onClick={() => navigate("/")}
           className="w-[2.1rem] h-[2.1rem] cursor-pointer"
@@ -126,7 +126,7 @@ export default function NotesPage() {
       <Sidebar isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
 
       <div className="max-640:px-3 max-465:px-2 max-420:px-1 max-385:px-0 flex flex-col items-center justify-center w-full px-6 lg:px-10">
-        <h1 className="absolute mt-6 top-0 left-1/2 transform -translate-x-1/2 w-[6.7rem] font-bold pb-1 flex items-center justify-center border-b border-gray-300 mb-12">
+        <h1 className="max-580:hidden absolute mt-6 top-0 left-1/2 transform -translate-x-1/2 w-[6.7rem] font-bold pb-1 flex items-center justify-center border-b border-gray-300 mb-12">
           Notes
         </h1>
         <div className="flex justify-center items-center w-full h-screen">
