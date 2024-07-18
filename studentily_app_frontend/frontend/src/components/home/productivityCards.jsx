@@ -12,7 +12,7 @@ export default function productivityCards() {
     <div className="max-1350:flex max-1350:items-center max-1350:justify-center max-1350:h-full">
       <div
         id="cards_wrapper"
-        className="between-768-1350:-mt-[2rem] max-767:-mt-16 max-767:px-6 max-970:gap-4 max-970:w-full max-970:mx-8 flex flex-wrap max-1350:justify-center max-1350:pr-0 max-900:justify-center pr-[7rem] z-[70] max-1200:w-[60rem] w-[70rem] min-1350:max-w-[50rem] absolute top-[35%] gap-6"
+        className="max-767:mt-6 between-768-1350:-mt-[2rem] max-767:-mt-16 max-767:px-6 max-970:gap-4 max-970:w-full max-970:mx-8 flex flex-wrap max-1350:justify-center max-1350:pr-0 max-900:justify-center pr-[7rem] z-[70] max-1200:w-[60rem] w-[70rem] min-1350:max-w-[50rem] absolute top-[35%] gap-6"
       >
         <div
           id="notesCard"
