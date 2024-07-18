@@ -23,7 +23,7 @@ export default function pomodoroPage() {
 
   return (
     <>
-      <div className="absolute left-0 top-0 p-8">
+      <div className="max-580:hidden absolute left-0 top-0 p-8">
         <FontAwesomeIcon
           onClick={() => navigate("/")}
           className="w-[2.1rem] h-[2.1rem] cursor-pointer"
@@ -46,7 +46,7 @@ export default function pomodoroPage() {
       <Sidebar isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
 
       <div className="flex flex-col h-[100vh] justify-center items-center">
-        <h1 className="absolute mt-6 top-0 left-1/2 transform -translate-x-1/2 w-[11.1rem] font-bold pb-1 flex items-center justify-center border-b border-gray-300 mb-12">
+        <h1 className="max-580:hidden absolute mt-6 top-0 left-1/2 transform -translate-x-1/2 w-[11.1rem] font-bold pb-1 flex items-center justify-center border-b border-gray-300 mb-12">
           Pomodoro
         </h1>
         <UnitContext.Provider
