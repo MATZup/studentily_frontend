@@ -172,7 +172,7 @@ export default function TodosPage() {
         alt=""
         className="fixed -bottom-1 -right-[34rem] max-960:w-[75rem] max-768:w-[70rem] max-650:w-[65rem] max-465:w-[60rem] max-385:w-[58rem] max-350:w-[56rem] z-[-50] max-w-[83rem] overflow-hidden pl-16 pr-16 aspect-[16/9]"
       />
-      <div className="absolute left-0 top-0 p-8">
+      <div className="max-580:hidden absolute left-0 top-0 p-8">
         <FontAwesomeIcon
           onClick={() => navigate("/")}
           className="w-[2.1rem] h-[2.1rem] cursor-pointer"
@@ -195,7 +195,7 @@ export default function TodosPage() {
       <Sidebar isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
 
       <div className="flex justify-center">
-        <h1 className="absolute mt-6 top-0 left-1/2 transform -translate-x-1/2 w-[6.8rem] font-bold pb-1 flex items-center justify-center border-b border-gray-300 mb-12">
+        <h1 className="max-580:hidden absolute mt-6 top-0 left-1/2 transform -translate-x-1/2 w-[6.8rem] font-bold pb-1 flex items-center justify-center border-b border-gray-300 mb-12">
           Todos
         </h1>
         <div className="fixed z-50 bottom-8 w-full max-w-[82rem] mx-auto px-[3rem] max-1350:px-10 max-580:px-4">
