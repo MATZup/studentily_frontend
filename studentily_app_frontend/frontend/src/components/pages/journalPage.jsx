@@ -162,7 +162,7 @@ export default function JournalPage() {
 
       <div className="flex items-center justify-center h-screen w-screen">
         <div className="flex flex-col items-center w-full max-465:px-3 max-767:px-5">
-          <h1 className="absolute mt-6 top-0 left-1/2 transform -translate-x-1/2 w-[8.5rem] font-bold pb-1 flex items-center justify-center border-b border-gray-300 mb-12">
+          <h1 className="max-580:hidden absolute mt-6 top-0 left-1/2 transform -translate-x-1/2 w-[8.5rem] font-bold pb-1 flex items-center justify-center border-b border-gray-300 mb-12">
             Journal
           </h1>
           <div className="mt-12 flex w-full h-full items-center justify-center">
