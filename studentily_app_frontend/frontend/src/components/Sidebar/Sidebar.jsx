@@ -125,8 +125,8 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
               alt=""
             />
             <span className="text-sm">Home</span>
+             <span className="underline p-2 text-gray-300 w-full text-center"> </span>
           </div>
-          <span className="underline p-2 text-gray-300"></span>
         </span>
         
         <span className="cursor-pointer" onClick={() => navigate("/notes")}>
