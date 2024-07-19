@@ -66,7 +66,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
         isSidebarOpen ? "translate-x-0" : "translate-x-full"
       }`}
     >
-      <div className="p-4 mb-[.5rem] mt-[.7rem]">
+      <div className="p-4 mb-[.4rem] mt-[.6rem]">
         {userInformation && (
           <div className="flex flex-col gap-2 items-center">
             <div className="w-12 h-12 flex justify-center text-white bg-[#2E3044] font-medium items-center rounded-full">
@@ -79,14 +79,14 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
               <div className="flex flex-col ">
                 {isDeleteMode ? (
                   <button
-                    className="text-[.7rem] text-black bg-slate-100 h-[1.2rem] w-[6.5rem] rounded-full hover:text-white hover:bg-[#e35c55] mt-[.3rem]"
+                    className="text-[.7rem] text-black bg-slate-100 h-[1.2rem] w-[6.5rem] rounded-full hover:text-white hover:bg-[#e35c55] mt-[.8rem]"
                     onClick={handleDeleteAccount}
                   >
                     Delete Account
                   </button>
                 ) : (
                   <button
-                    className="text-[.7rem] text-black bg-slate-100 h-[1.2rem] w-[3.6rem] rounded-full hover:text-white hover:bg-[#e35c55] mt-[.3rem]"
+                    className="text-[.7rem] text-black bg-slate-100 h-[1.2rem] w-[3.6rem] rounded-full hover:text-white hover:bg-[#e35c55] mt-[.8rem]"
                     onClick={handleLogout}
                   >
                     Logout
@@ -120,7 +120,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
         <span className="cursor-pointer" onClick={() => navigate("/")}>
           <div className="flex flex-col items-center">
             <img
-              className="w-[4rem] ml-[5px] hover:rotate-12 transition-all mb-[.3rem]"
+              className="w-[3.8rem] ml-[5px] hover:rotate-12 transition-all mb-[.3rem]"
               src={uniSmiley}
               alt=""
             />
@@ -132,7 +132,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
         <span className="cursor-pointer mt-2" onClick={() => navigate("/notes")}>
           <div className="flex flex-col items-center">
             <img
-              className="w-[1.7rem] hover:rotate-12 transition-all mb-[.3rem]"
+              className="w-[1.5rem] hover:rotate-12 transition-all mb-[.3rem]"
               src={notesIcon}
               alt=""
             />
