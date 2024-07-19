@@ -129,7 +129,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
           </div>
         </span>
         
-        <span className="cursor-pointer mt-4" onClick={() => navigate("/notes")}>
+        <span className="cursor-pointer mt-2" onClick={() => navigate("/notes")}>
           <div className="flex flex-col items-center">
             <img
               className="w-[1.7rem] hover:rotate-12 transition-all mb-[.3rem]"
