@@ -36,7 +36,7 @@ export default function productivityCards() {
             id="pomodoroInside"
             className="max-767:gap-4 max-767:flex-row-reverse flex flex-col items-center justify-center"
           >
-            <span className="text-3xl mb-[.4rem] font-bold text-[#B9514C]">
+            <span className="text-3xl max-500:mb-[.65rem] mb-[.4rem] font-bold text-[#B9514C]">
               Pomodoro
             </span>
             <img className="max-500:w-[3.2rem] max-500:mb-[1rem] w-[4.4rem] mb-[1.2rem]" src={pomodoroIcon} alt="" />
