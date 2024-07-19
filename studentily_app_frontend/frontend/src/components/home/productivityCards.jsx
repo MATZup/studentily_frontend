@@ -39,7 +39,7 @@ export default function productivityCards() {
             <span className="text-3xl mb-[.4rem] font-bold text-[#B9514C]">
               Pomodoro
             </span>
-            <img className="max-500:w-[2.7rem] max-500:mb-0 w-[4.4rem] mb-[1.2rem]" src={pomodoroIcon} alt="" />
+            <img className="max-500:w-[3.7rem] max-500:mb-0 w-[4.4rem] mb-[1.2rem]" src={pomodoroIcon} alt="" />
           </div>
         </div>
         <div
