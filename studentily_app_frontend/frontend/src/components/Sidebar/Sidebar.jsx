@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import axiosCall from "../utils/axiosInst";
+import uniSmiley from "../images/emoji_icons/uni_smiley.png";
 import notesIcon from "../images/notes_icon.png";
 import pomodoroIcon from "../images/pomodoro_icon.png";
 import todosIcon from "../images/todos_icon.png";
@@ -115,6 +116,18 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
         )}
       </div>
       <div className="flex flex-col gap-4">
+
+<span className="cursor-pointer" onClick={() => navigate("/")}>
+          <div className="flex flex-col items-center">
+            <img
+              className="w-[1.7rem] hover:rotate-12 transition-all mb-[.3rem]"
+              src={uniSmiley}
+              alt=""
+            />
+            <span className="text-sm">Notes</span>
+          </div>
+        </span>
+        
         <span className="cursor-pointer" onClick={() => navigate("/notes")}>
           <div className="flex flex-col items-center">
             <img
