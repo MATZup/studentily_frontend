@@ -120,7 +120,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
         <span className="underline cursor-pointer" onClick={() => navigate("/")}>
           <div className="flex flex-col items-center">
             <img
-              className="w-[3rem] hover:rotate-12 transition-all mb-[.3rem]"
+              className="w-[4rem] ml-[5px] hover:rotate-12 transition-all mb-[.3rem]"
               src={uniSmiley}
               alt=""
             />
