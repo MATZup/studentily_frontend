@@ -125,7 +125,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
               alt=""
             />
             <span className="text-sm">Home</span>
-             <span className="underline p-2 text-gray-300 w-full text-center"> </span>
+             <span className="border-b-[.8px] pt-1 w-[7.2rem] border-black border-solid border-opacity-50"> </span>
           </div>
         </span>
         
