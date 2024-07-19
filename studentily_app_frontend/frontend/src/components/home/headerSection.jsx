@@ -48,7 +48,7 @@ export default function HeaderSection() {
       className="max-767:px-8 flex max-1350:items-center max-1350:justify-center max-786:mt-12 z-50 max-1005:gap-14 max-1005:justify-start justify-between pt-[5rem]"
     >
       <div className="flex max-720:relative max-720:left-0 flex-col items-start">
-        <h1 className="max-500:text-[20px] max-550:mr-0 max-767:w-full max-767:mr-[9.5rem] max-767:mt-[.5rem] between-721-767:mt-[1.5rem] between-768-787:mr-[22.9rem] between-786-970:mt-[3rem] between-786-970:mr-[9.7rem] between-970-1005:mt-[2.8rem] between-970-1005:mr-[15.9rem] between-1005-1200:mt-[2.5rem] between-1005-1200:mr-[16.1rem] between-1200-1350:mt-[3rem] between-1200-1350:mr-[21.9rem] max-767:text-[1.5rem] relative mb-1 text-left max-786:flex-col font-bold flex">
+        <h1 className="max-500:text-[21px] max-550:mr-0 max-767:w-full max-767:mr-[9.5rem] max-767:mt-[.5rem] between-721-767:mt-[1.5rem] between-768-787:mr-[22.9rem] between-786-970:mt-[3rem] between-786-970:mr-[9.7rem] between-970-1005:mt-[2.8rem] between-970-1005:mr-[15.9rem] between-1005-1200:mt-[2.5rem] between-1005-1200:mr-[16.1rem] between-1200-1350:mt-[3rem] between-1200-1350:mr-[21.9rem] max-767:text-[1.5rem] relative mb-1 text-left max-786:flex-col font-bold flex">
           Hey, let's rock your&nbsp;
           <span className="break-word">
             studies, {""}
@@ -63,7 +63,7 @@ export default function HeaderSection() {
           />
         </h1>
         {!isSmallScreen && (
-          <span className="max-500:text-[20px] text-[28px] font-bold -mt-7">
+          <span className="max-500:text-[21px] text-[28px] font-bold -mt-7">
             {userInformation && (
               <span>{userInformation.username.split(" ")[0]}!</span>
             )}
