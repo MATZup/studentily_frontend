@@ -11,6 +11,8 @@ module.exports = {
         "between-1005-1200": { min: "1005px", max: "1200px" },
         "between-970-1005": { min: "971px", max: "1005px" },
 
+        "between-768-970": { min: "768px", max: "970px" },
+
         "between-786-970": { min: "787px", max: "970px" },
 
         "between-500-767": { min: "500px", max: "767px" },
