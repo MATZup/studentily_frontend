@@ -117,14 +117,14 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
       </div>
       <div className="flex flex-col gap-4">
 
-<span className="cursor-pointer" onClick={() => navigate("/")}>
+        <span className="underline cursor-pointer" onClick={() => navigate("/")}>
           <div className="flex flex-col items-center">
             <img
-              className="w-[1.7rem] hover:rotate-12 transition-all mb-[.3rem]"
+              className="w-[3rem] hover:rotate-12 transition-all mb-[.3rem]"
               src={uniSmiley}
               alt=""
             />
-            <span className="text-sm">Notes</span>
+            <span className="text-sm">Home</span>
           </div>
         </span>
         
