@@ -20,7 +20,7 @@ export default function productivityCards() {
           onClick={() => navigate("/notes")}
         >
           <div className="flex max-767:gap-4 max-767:flex-row-reverse flex-col items-center justify-center">
-            <span className="text-3xl mb-[.6rem] font-bold text-[#D6BF5F]">
+            <span className="max-500:mb-0 text-3xl mb-[.6rem] font-bold text-[#D6BF5F]">
               Notes
             </span>
 
