@@ -16,7 +16,7 @@ export default function productivityCards() {
       >
         <div
           id="notesCard"
-          className="max-500:h-[5.5rem] w-80 h-40 max-720:h-[7.2rem] max-720:w-[26.5rem] max-767:w-[26rem] between-500-767:h-[7.5rem] max-767:hover:w-[27rem] max-767:hover:h-[8.5rem] max-970:w-[20rem] max-970:h-[10.5rem] max-970:hover:h-[11.5rem] max-970:hover:w-[21rem] max-1200:w-[23rem] max-1200:h-[12rem] max-1200:hover:h-[13rem] max-1200:hover:w-[24rem] max-1350:w-[26rem] max-1350:h-[13rem] max-1350:hover:w-[27rem] max-1350:hover:h-[14rem] bg-[#FFEB95] flex flex-col items-center justify-center rounded-2xl hover:w-[21rem] hover:h-[11rem] transition-all duration-300 drop-shadow-xl cursor-pointer"
+          className="max-500:h-[5.6rem] w-80 h-40 max-720:h-[7.2rem] max-720:w-[26.5rem] max-767:w-[26rem] between-500-767:h-[7.5rem] max-767:hover:w-[27rem] max-767:hover:h-[8.5rem] max-970:w-[20rem] max-970:h-[10.5rem] max-970:hover:h-[11.5rem] max-970:hover:w-[21rem] max-1200:w-[23rem] max-1200:h-[12rem] max-1200:hover:h-[13rem] max-1200:hover:w-[24rem] max-1350:w-[26rem] max-1350:h-[13rem] max-1350:hover:w-[27rem] max-1350:hover:h-[14rem] bg-[#FFEB95] flex flex-col items-center justify-center rounded-2xl hover:w-[21rem] hover:h-[11rem] transition-all duration-300 drop-shadow-xl cursor-pointer"
           onClick={() => navigate("/notes")}
         >
           <div className="flex max-767:gap-4 max-767:flex-row-reverse flex-col items-center justify-center">
@@ -29,7 +29,7 @@ export default function productivityCards() {
         </div>
         <div
           id="pomodoroCard"
-          className="max-500:h-[5.5rem] w-80 max-767:w-[26rem] between-500-767:h-[7.5rem] h-40 max-720:h-[7.2rem] max-720:w-[26.5rem] max-767:hover:w-[27rem] max-767:hover:h-[8.5rem] max-970:w-[20rem] max-970:h-[10.5rem] max-970:hover:h-[11.5rem] max-970:hover:w-[21rem] max-1200:w-[23rem] max-1200:h-[12rem] max-1200:hover:h-[13rem] max-1200:hover:w-[24rem] max-1350:w-[26rem] max-1350:h-[13rem] max-1350:hover:w-[27rem] max-1350:hover:h-[14rem] drop-shadow-xl bg-[#fa746d] cursor-pointer pt-3 flex flex-col items-center justify-center rounded-2xl hover:w-[21rem] hover:h-[11rem] transition-all duration-300"
+          className="max-500:h-[5.6rem] w-80 max-767:w-[26rem] between-500-767:h-[7.5rem] h-40 max-720:h-[7.2rem] max-720:w-[26.5rem] max-767:hover:w-[27rem] max-767:hover:h-[8.5rem] max-970:w-[20rem] max-970:h-[10.5rem] max-970:hover:h-[11.5rem] max-970:hover:w-[21rem] max-1200:w-[23rem] max-1200:h-[12rem] max-1200:hover:h-[13rem] max-1200:hover:w-[24rem] max-1350:w-[26rem] max-1350:h-[13rem] max-1350:hover:w-[27rem] max-1350:hover:h-[14rem] drop-shadow-xl bg-[#fa746d] cursor-pointer pt-3 flex flex-col items-center justify-center rounded-2xl hover:w-[21rem] hover:h-[11rem] transition-all duration-300"
           onClick={() => navigate("/pomodoro")}
         >
           <div
@@ -44,7 +44,7 @@ export default function productivityCards() {
         </div>
         <div
           id="todosCard"
-          className="max-500:h-[5.5rem] w-80 h-40 max-767:w-[26rem] between-500-767:h-[7.5rem] max-720:h-[7.2rem] max-720:w-[26.5rem] max-767:hover:w-[27rem] max-767:hover:h-[8.5rem] max-970:w-[20rem] max-970:h-[10.5rem] max-970:hover:h-[11.5rem] max-970:hover:w-[21rem] max-1200:w-[23rem] max-1200:h-[12rem] max-1200:hover:h-[13rem] max-1200:hover:w-[24rem] max-1350:w-[26rem] max-1350:h-[13rem] max-1350:hover:w-[27rem] max-1350:hover:h-[14rem] drop-shadow-xl bg-[#92E0B3] pt-3 cursor-pointer flex flex-col items-center justify-center rounded-2xl hover:w-[21rem] hover:h-[11rem] transition-all duration-300"
+          className="max-500:h-[5.6rem] w-80 h-40 max-767:w-[26rem] between-500-767:h-[7.5rem] max-720:h-[7.2rem] max-720:w-[26.5rem] max-767:hover:w-[27rem] max-767:hover:h-[8.5rem] max-970:w-[20rem] max-970:h-[10.5rem] max-970:hover:h-[11.5rem] max-970:hover:w-[21rem] max-1200:w-[23rem] max-1200:h-[12rem] max-1200:hover:h-[13rem] max-1200:hover:w-[24rem] max-1350:w-[26rem] max-1350:h-[13rem] max-1350:hover:w-[27rem] max-1350:hover:h-[14rem] drop-shadow-xl bg-[#92E0B3] pt-3 cursor-pointer flex flex-col items-center justify-center rounded-2xl hover:w-[21rem] hover:h-[11rem] transition-all duration-300"
           onClick={() => navigate("/todos")}
         >
           <div
@@ -59,7 +59,7 @@ export default function productivityCards() {
         </div>
         <div
           id="journalCard"
-          className="max-500:h-[5.5rem] w-80 h-40 max-767:w-[26rem] between-500-767:h-[7.5rem] max-720:h-[7.2rem] max-720:w-[26.5rem] max-767:hover:w-[27rem] max-767:hover:h-[8.5rem] max-970:w-[20rem] max-970:h-[10.5rem] max-970:hover:h-[11.5rem] max-970:hover:w-[21rem] max-1200:w-[23rem] max-1200:h-[12rem] max-1200:hover:h-[13rem] max-1200:hover:w-[24rem] max-1350:w-[26rem] max-1350:h-[13rem] max-1350:hover:w-[27rem] max-1350:hover:h-[14rem] drop-shadow-xl bg-[#9D95DD] pt-3 cursor-pointer flex flex-col items-center justify-center rounded-2xl hover:w-[21rem] hover:h-[11rem] transition-all duration-300"
+          className="max-500:h-[5.6rem] w-80 h-40 max-767:w-[26rem] between-500-767:h-[7.5rem] max-720:h-[7.2rem] max-720:w-[26.5rem] max-767:hover:w-[27rem] max-767:hover:h-[8.5rem] max-970:w-[20rem] max-970:h-[10.5rem] max-970:hover:h-[11.5rem] max-970:hover:w-[21rem] max-1200:w-[23rem] max-1200:h-[12rem] max-1200:hover:h-[13rem] max-1200:hover:w-[24rem] max-1350:w-[26rem] max-1350:h-[13rem] max-1350:hover:w-[27rem] max-1350:hover:h-[14rem] drop-shadow-xl bg-[#9D95DD] pt-3 cursor-pointer flex flex-col items-center justify-center rounded-2xl hover:w-[21rem] hover:h-[11rem] transition-all duration-300"
           onClick={() => navigate("/journal")}
         >
           <div
