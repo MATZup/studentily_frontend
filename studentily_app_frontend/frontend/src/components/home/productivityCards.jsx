@@ -24,7 +24,7 @@ export default function productivityCards() {
               Notes
             </span>
 
-            <img className="max-500:w-[2.7rem] max-500:mb-0 w-[3.3rem] mb-[.3rem]" src={notesIcon} alt="" />
+            <img className="max-500:w-[2.4rem] max-500:mb-0 w-[3.3rem] mb-[.3rem]" src={notesIcon} alt="" />
           </div>
         </div>
         <div
@@ -39,7 +39,7 @@ export default function productivityCards() {
             <span className="text-3xl mb-[.4rem] font-bold text-[#B9514C]">
               Pomodoro
             </span>
-            <img className="max-500:w-[3.7rem] max-500:mb-0 w-[4.4rem] mb-[1.2rem]" src={pomodoroIcon} alt="" />
+            <img className="max-500:w-[3.2rem] max-500:mb-[.8rem] w-[4.4rem] mb-[1.2rem]" src={pomodoroIcon} alt="" />
           </div>
         </div>
         <div
@@ -54,7 +54,7 @@ export default function productivityCards() {
             <span className="text-3xl mb-[.8rem] font-bold text-[#72A889]">
               Todos
             </span>
-            <img className="max-500:w-[2.7rem] max-500:mb-0 w-16 mb-[.95rem]" src={todosIcon} alt="" />
+            <img className="max-500:w-[3.2rem] max-500:mb-[.7rem] w-16 mb-[.95rem]" src={todosIcon} alt="" />
           </div>
         </div>
         <div
@@ -69,7 +69,7 @@ export default function productivityCards() {
             <span className="text-3xl mb-[.8rem] font-bold text-[#736AB1]">
               Journal
             </span>
-            <img className="max-500:w-[2.7rem] max-500:mb-0 w-[3.5rem] mb-[.95rem]" src={journalIcon} alt="" />
+            <img className="max-500:w-[2.4rem] max-500:mb-[.7rem] w-[3.5rem] mb-[.95rem]" src={journalIcon} alt="" />
           </div>
         </div>
       </div>
