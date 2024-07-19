@@ -81,7 +81,7 @@ export default function PomodoroTimer() {
   const color3 = "#93D79B";
 
   return (
-    <div className="mt-14">
+    <div className="mt-14 max-580:mt-0">
       <CircularProgressbar
         className="w-[24rem] max-870:w-[23rem] max-580:w-[21rem] max-465:w-[19.4rem] max-385:w-[18rem] max-350:w-[16.8rem] max-327:w-[16rem] max-307:w-[15rem]"
         value={percentage}
