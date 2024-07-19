@@ -66,7 +66,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
         isSidebarOpen ? "translate-x-0" : "translate-x-full"
       }`}
     >
-      <div className="p-4 mb-[.6rem] mt-[1rem]">
+      <div className="p-4 mb-[.4rem] mt-[.8rem]">
         {userInformation && (
           <div className="flex flex-col gap-2 items-center">
             <div className="w-12 h-12 flex justify-center text-white bg-[#2E3044] font-medium items-center rounded-full">
