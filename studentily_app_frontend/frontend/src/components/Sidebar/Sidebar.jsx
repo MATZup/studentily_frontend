@@ -66,7 +66,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
         isSidebarOpen ? "translate-x-0" : "translate-x-full"
       }`}
     >
-      <div className="p-4 mb-[.55rem] mt-[.6rem]">
+      <div className="p-4 mb-[.6rem] mt-[.6rem]">
         {userInformation && (
           <div className="flex flex-col gap-2 items-center">
             <div className="w-12 h-12 flex justify-center text-white bg-[#2E3044] font-medium items-center rounded-full">
@@ -79,14 +79,14 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
               <div className="flex flex-col ">
                 {isDeleteMode ? (
                   <button
-                    className="text-[.7rem] text-black bg-slate-100 h-[1.2rem] w-[6.5rem] rounded-full hover:text-white hover:bg-[#e35c55] mb-[.5rem] mt-[.4rem]"
+                    className="text-[.7rem] text-black bg-slate-100 h-[1.2rem] w-[6.5rem] rounded-full hover:text-white hover:bg-[#e35c55] mb-[.6rem] mt-[.4rem]"
                     onClick={handleDeleteAccount}
                   >
                     Delete Account
                   </button>
                 ) : (
                   <button
-                    className="text-[.7rem] text-black bg-slate-100 h-[1.2rem] w-[3.6rem] rounded-full hover:text-white hover:bg-[#e35c55] mb-[.5rem] mt-[.4rem]"
+                    className="text-[.7rem] text-black bg-slate-100 h-[1.2rem] w-[3.6rem] rounded-full hover:text-white hover:bg-[#e35c55] mb-[.6rem] mt-[.4rem]"
                     onClick={handleLogout}
                   >
                     Logout
