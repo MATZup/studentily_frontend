@@ -117,7 +117,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
       </div>
       <div className="flex flex-col gap-4">
 
-        <span className="underline cursor-pointer" onClick={() => navigate("/")}>
+        <span className="cursor-pointer" onClick={() => navigate("/")}>
           <div className="flex flex-col items-center">
             <img
               className="w-[4rem] ml-[5px] hover:rotate-12 transition-all mb-[.3rem]"
@@ -126,6 +126,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
             />
             <span className="text-sm">Home</span>
           </div>
+          <span className="underline p-2 text-gray-300"></span>
         </span>
         
         <span className="cursor-pointer" onClick={() => navigate("/notes")}>
