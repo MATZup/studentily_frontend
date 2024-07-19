@@ -57,7 +57,7 @@ export default function HeaderSection() {
             )}
           </span>
           <img
-            className="max-500:-top-[3.8rem] max-500:w-[5.2rem] max-500:h-[4.2rem] max-767:-mt-[.55rem] max-767:w-[5.5rem] max-767:h-[4.4rem] max-786:absolute max-786:-left-5 max-786:-top-16 w-24 h-[4.8rem] -mt-3"
+            className="max-500:-top-[3.8rem] max-500:-left-[1.1rem] max-500:w-[5.2rem] max-500:h-[4.2rem] max-767:-mt-[.55rem] max-767:w-[5.5rem] max-767:h-[4.4rem] max-786:absolute max-786:-left-5 max-786:-top-16 w-24 h-[4.8rem] -mt-3"
             src={uniSmiley}
             alt="App Smiley"
           />
