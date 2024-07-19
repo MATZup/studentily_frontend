@@ -66,7 +66,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
         isSidebarOpen ? "translate-x-0" : "translate-x-full"
       }`}
     >
-      <div className="p-4 mb-[3rem] mt-[1rem]">
+      <div className="p-4 mb-[.6rem] mt-[1rem]">
         {userInformation && (
           <div className="flex flex-col gap-2 items-center">
             <div className="w-12 h-12 flex justify-center text-white bg-[#2E3044] font-medium items-center rounded-full">
@@ -125,11 +125,11 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
               alt=""
             />
             <span className="text-sm">Home</span>
-             <span className="border-b-[.8px] py-2 w-[6rem] border-[#2E3044] border-solid"> </span>
+             <span className="border-b-[.8px] py-2 w-[5.9rem] border-gray-500 border-solid"> </span>
           </div>
         </span>
         
-        <span className="cursor-pointer" onClick={() => navigate("/notes")}>
+        <span className="cursor-pointer mt-4" onClick={() => navigate("/notes")}>
           <div className="flex flex-col items-center">
             <img
               className="w-[1.7rem] hover:rotate-12 transition-all mb-[.3rem]"
@@ -142,7 +142,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
         <span className="cursor-pointer" onClick={() => navigate("/pomodoro")}>
           <div className="flex flex-col items-center">
             <img
-              className="w-[1.9rem] hover:rotate-12 transition-all mb-[.3rem]"
+              className="w-[1.7rem] hover:rotate-12 transition-all mb-[.3rem]"
               src={pomodoroIcon}
               alt=""
             />
