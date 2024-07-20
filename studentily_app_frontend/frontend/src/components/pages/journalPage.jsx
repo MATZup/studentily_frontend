@@ -165,7 +165,7 @@ export default function JournalPage() {
           <h1 className="max-580:hidden absolute mt-6 top-0 left-1/2 transform -translate-x-1/2 w-[8.5rem] font-bold pb-1 flex items-center justify-center border-b border-gray-300 mb-12">
             Journal
           </h1>
-          <div className="mt-12 max-580:mt-2 flex w-full h-full items-center justify-center">
+          <div className="mt-12 max-580:mt-1 flex w-full h-full items-center justify-center">
             <div
               id="custom_scrollbar"
               className="bg-[#191A27] overflow-y-auto max-640:mt-6 max-580:mt-1 max-640:mx-0 max-580:max-h-[37.1rem] between-767-960:max-h-[41rem] max-767:mt-6 max-767:h-[43rem] min-767:mx-[3.2rem] rounded-xl w-full max-w-[80rem] h-[39.9rem] p-4 md:p-7 flex flex-col md:flex-row justify-between"
