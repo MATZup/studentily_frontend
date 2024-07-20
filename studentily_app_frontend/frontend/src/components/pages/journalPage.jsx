@@ -365,7 +365,7 @@ function EditAndAddJournal({
   };
 
   return (
-    <div className="relative mb-12 pr-1 max-1350:pr-0 max-767:pr-0">
+    <div className="relative max-580:mb-4 mb-12 pr-1 max-1350:pr-0 max-767:pr-0">
       <div className="flex text-start flex-col gap-2">
         <input
           type="text"
