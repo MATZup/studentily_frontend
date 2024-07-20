@@ -168,7 +168,7 @@ export default function JournalPage() {
           <div className="mt-12 max-580:mt-4 flex w-full h-full items-center justify-center">
             <div
               id="custom_scrollbar"
-              className="bg-[#191A27] overflow-y-auto max-640:mt-6 max-640:mx-0 max-580:max-h-[35rem] between-767-960:max-h-[41rem] max-767:mt-6 max-767:h-[43rem] min-767:mx-[3.2rem] rounded-xl w-full max-w-[80rem] h-[39.9rem] p-4 md:p-7 flex flex-col md:flex-row justify-between"
+              className="bg-[#191A27] overflow-y-auto max-640:mt-6 max-640:mx-0 max-580:max-h-[38rem] between-767-960:max-h-[41rem] max-767:mt-6 max-767:h-[43rem] min-767:mx-[3.2rem] rounded-xl w-full max-w-[80rem] h-[39.9rem] p-4 md:p-7 flex flex-col md:flex-row justify-between"
             >
               <div
                 id="left_side_wrapper"
