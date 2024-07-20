@@ -378,7 +378,7 @@ function EditAndAddJournal({
       <div className="flex flex-col gap-2 mt-4">
         <textarea
           type="text"
-          className="text-sm text-[#dfdfdf] max-640:max-h-[17rem] max-767:max-h-[18.5rem] max-465:max-h-[14.6rem] rounded-xl outline-none bg-[#2D3046] p-3"
+          className="text-sm text-[#dfdfdf] max-640:max-h-[17rem] max-767:max-h-[18.5rem] max-500:max-h-[12.8rem] rounded-xl outline-none bg-[#2D3046] p-3"
           placeholder="Content..."
           cols="40"
           rows="21"
