@@ -216,7 +216,7 @@ export default function JournalPage() {
                         By writing a <b>Journal</b> you can reflect, save
                         contents and
                         <br /> remember better!
-                        <br /> Create your first Journal-Unit by clicking the
+                        <br /> Create Journal-Units by clicking the
                         <br /> <b>Add </b> Button!
                       </span>
                     </div>
