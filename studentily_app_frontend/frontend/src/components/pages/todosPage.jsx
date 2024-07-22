@@ -255,7 +255,7 @@ export default function TodosPage() {
             <div className="flex max-500:mt-2 flex-col justify-center items-center mx-auto mt-12">
               <img className="w-72" src={todosEmoji} alt="" />
               <span className="-mt-2 text-center">
-                Create your first <b>Todo!</b> Just click the <b>Create Todo</b>{" "}
+                Create <b>Todos!</b> Just click the <b>Create Todo</b>{" "}
                 Field below. <br />
                 Organise, plan and be creative by writing <b>Todos!</b>
               </span>
