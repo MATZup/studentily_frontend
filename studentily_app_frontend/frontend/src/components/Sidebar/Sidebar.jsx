@@ -117,6 +117,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
       </div>
       <div className="flex flex-col gap-4">
 
+      <button>
         <span className="cursor-pointer" onClick={() => navigate("/")}>
           <div className="flex flex-col items-center">
             <img
@@ -128,7 +129,9 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
              <span className="border-b-[.8px] py-2 w-[5.3rem] border-[#2E3044] border-solid"> </span>
           </div>
         </span>
+      </button>
         
+      <button>    
         <span className="cursor-pointer mt-2" onClick={() => navigate("/notes")}>
           <div className="flex flex-col items-center">
             <img
@@ -139,6 +142,9 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
             <span className="text-sm">Notes</span>
           </div>
         </span>
+      </button>
+        
+      <button>
         <span className="cursor-pointer" onClick={() => navigate("/pomodoro")}>
           <div className="flex flex-col items-center">
             <img
@@ -149,6 +155,9 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
             <span className="text-sm">Pomodoro</span>
           </div>
         </span>
+      </button>
+        
+      <button>
         <span className="cursor-pointer" onClick={() => navigate("/todos")}>
           <div className="flex flex-col items-center">
             <img
@@ -159,6 +168,9 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
             <span className="text-sm">Todos</span>
           </div>
         </span>
+      </button>
+
+      <button>
         <span className="cursor-pointer" onClick={() => navigate("/journal")}>
           <div className="flex flex-col items-center">
             <img
@@ -169,6 +181,8 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
             <span className="text-sm">Journal</span>
           </div>
         </span>
+      </button>
+  
       </div>
     </div>
   );
