@@ -117,8 +117,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
       </div>
       <div className="flex flex-col gap-4">
 
-      <button>
-        <span className="cursor-pointer" onClick={() => navigate("/")}>
+      <button className="cursor-pointer" onClick={() => navigate("/")}>
           <div className="flex flex-col items-center">
             <img
               className="w-[3.8rem] ml-[5px] hover:rotate-12 transition-all mb-[.3rem]"
@@ -128,7 +127,6 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
             <span className="text-sm">Home</span>
              <span className="border-b-[.8px] py-2 w-[5.3rem] border-[#2E3044] border-solid"> </span>
           </div>
-        </span>
       </button>
         
       <button>    
