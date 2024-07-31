@@ -129,8 +129,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
           </div>
       </button>
         
-      <button>    
-        <span className="cursor-pointer mt-2" onClick={() => navigate("/notes")}>
+      <button className="cursor-pointer mt-2" onClick={() => navigate("/notes")}>
           <div className="flex flex-col items-center">
             <img
               className="w-[1.5rem] hover:rotate-12 transition-all mb-[.3rem]"
@@ -139,11 +138,9 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
             />
             <span className="text-sm">Notes</span>
           </div>
-        </span>
       </button>
         
-      <button>
-        <span className="cursor-pointer" onClick={() => navigate("/pomodoro")}>
+      <button className="cursor-pointer" onClick={() => navigate("/pomodoro")}>
           <div className="flex flex-col items-center">
             <img
               className="w-[1.7rem] hover:rotate-12 transition-all mb-[.3rem]"
@@ -152,11 +149,9 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
             />
             <span className="text-sm">Pomodoro</span>
           </div>
-        </span>
       </button>
         
-      <button>
-        <span className="cursor-pointer" onClick={() => navigate("/todos")}>
+      <button className="cursor-pointer" onClick={() => navigate("/todos")}>
           <div className="flex flex-col items-center">
             <img
               className="w-[1.9rem] hover:rotate-12 transition-all mb-[.3rem]"
@@ -165,11 +160,9 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
             />
             <span className="text-sm">Todos</span>
           </div>
-        </span>
       </button>
 
-      <button>
-        <span className="cursor-pointer" onClick={() => navigate("/journal")}>
+      <button className="cursor-pointer" onClick={() => navigate("/journal")}>
           <div className="flex flex-col items-center">
             <img
               className="w-[1.7rem] hover:rotate-12 transition-all mb-[.3rem]"
@@ -178,7 +171,6 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
             />
             <span className="text-sm">Journal</span>
           </div>
-        </span>
       </button>
   
       </div>
