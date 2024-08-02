@@ -235,7 +235,7 @@ export default function TodosPage() {
         </div>
       </div>
 
-      <div className="flex mt-[5.6rem] flex-col items-center w-full px-10 max-900:px-4 max-500:px-1 max-385:px-0">
+      <div className="flex mt-[6.25rem] flex-col items-center w-full px-10 max-900:px-4 max-500:px-1 max-385:px-0">
         <div className="max-h-[calc(90vh-8rem)] px-4 overflow-y-auto w-full max-w-[82rem] relative">
           {activeTodos.length > 0 ? (
             <div className="grid grid-cols-1 gap-1">
