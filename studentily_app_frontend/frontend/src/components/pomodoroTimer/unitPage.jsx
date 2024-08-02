@@ -20,7 +20,7 @@ export default function UnitPage() {
             value={unitSettings.workMinutes}
             onChange={(newValue) => unitSettings.setWorkMinutes(newValue)}
             min={1}
-            max={120}
+            max={100}
           />
           <span className="mt-5">
             Break | <b>{unitSettings.breakMinutes}:00 </b>min.
@@ -33,7 +33,7 @@ export default function UnitPage() {
             value={unitSettings.breakMinutes}
             onChange={(newValue) => unitSettings.setBreakMinutes(newValue)}
             min={1}
-            max={120}
+            max={100}
           />
         </div>
         <div className="mt-6 flex justify-center">
