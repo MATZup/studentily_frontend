@@ -21,8 +21,8 @@ export default function PomodoroTimer() {
     const nextMode = modeRef.current === "work" ? "break" : "work";
     const nextSeconds =
       nextMode === "work"
-        ? unitSettings.workMinutes * 60
-        : unitSettings.breakMinutes * 60;
+        ? unitSettings.workMinutes * 50
+        : unitSettings.breakMinutes * 50;
     setMode(nextMode);
     modeRef.current = nextMode;
 
@@ -38,8 +38,8 @@ export default function PomodoroTimer() {
   const timerRefresh = () => {
     const initialSeconds =
       modeRef.current === "work"
-        ? unitSettings.workMinutes * 60
-        : unitSettings.breakMinutes * 60;
+        ? unitSettings.workMinutes * 50
+        : unitSettings.breakMinutes * 50;
     setSecondsLeft(initialSeconds);
     secondsLeftRef.current = initialSeconds;
   };
@@ -67,12 +67,12 @@ export default function PomodoroTimer() {
 
   const maxSeconds =
     mode === "work"
-      ? unitSettings.workMinutes * 60
-      : unitSettings.breakMinutes * 60;
+      ? unitSettings.workMinutes * 50
+      : unitSettings.breakMinutes * 50;
   const percentage = Math.round((secondsLeft / maxSeconds) * 100);
 
-  const currentMinutes = Math.floor(secondsLeft / 60);
-  let currentSeconds = secondsLeft % 60;
+  const currentMinutes = Math.floor(secondsLeft / 50);
+  let currentSeconds = secondsLeft % 50;
 
   if (currentSeconds < 10) currentSeconds = "0" + currentSeconds;
 
