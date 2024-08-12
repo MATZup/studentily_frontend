@@ -55,6 +55,7 @@ export default function ProfileField({ userInformation }) {
               <button
                 className="text-[.7rem] bg-slate-100 h-[1.2rem] w-[6.5rem] rounded-full hover:text-white hover:bg-[#e35c55] mt-[.3rem]"
                 onClick={handleDeleteAccount}
+                tabindex="7"
               >
                 Delete Account
               </button>
@@ -62,13 +63,14 @@ export default function ProfileField({ userInformation }) {
               <button
                 className="text-[.7rem] bg-slate-100 h-[1.2rem] w-[3.6rem] rounded-full hover:text-white hover:bg-[#e35c55] mt-[.3rem]"
                 onClick={handleLogout}
+                tabindex="5"
               >
                 Logout
               </button>
             )}
           </div>
           <div className="flex flex-col">
-            <button className="text-gray-500 mt-[.4rem]" onClick={toggleMode}>
+            <button className="text-gray-500 mt-[.4rem]" onClick={toggleMode} tabindex="6">
               {isDeleteMode ? (
                 <FontAwesomeIcon
                   icon={faArrowRightArrowLeft}
