@@ -34,8 +34,8 @@ export default function HomePage() {
       <Sidebar isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
 
       <div className="h-screen overflow-y-hidden overflow-x-hidden w-screen max-1350:pl-0 max-1350:justify-center max-1350:items-center max-1350:pr-0 pl-[7rem] flex flex-col pr-[7rem] max-w-[1800px]">
-        <HeaderSection />
         <ProductivityCards />
+        <HeaderSection />
         <BgElements />
       </div>
     </>
