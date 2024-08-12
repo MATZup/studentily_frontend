@@ -98,7 +98,7 @@ export default function NotesWidget({
           </div>
         </div>
 
-        <div className="flex flex-col mt-1 items-center gap-[.7rem]">
+        <div className="flex flex-col items-center gap-[.7rem]">
           <button onClick={editNote}>
           <FontAwesomeIcon
             className="text-slate-400 hover:text-green-500"
