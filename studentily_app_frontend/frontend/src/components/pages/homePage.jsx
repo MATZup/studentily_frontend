@@ -20,7 +20,6 @@ export default function HomePage() {
       <button
         className="fixed z-[800] min-1350:hidden top-4 right-4 m-2 p-2 bg-gray-800 text-white rounded-full"
         onClick={toggleSidebar}
-        onFocus={toggleSidebar}
         tabindex="0"
       >
         <FontAwesomeIcon
