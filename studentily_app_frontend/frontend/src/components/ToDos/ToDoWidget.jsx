@@ -118,6 +118,7 @@ export default function ToDoWidget({
             </div>
 
             <div className="flex items-center pl-3 justify-center gap-4">
+              <button>
               <FontAwesomeIcon
                 className={`${
                   isPinned
@@ -127,16 +128,21 @@ export default function ToDoWidget({
                 onClick={pinnedTodo}
                 icon={faThumbtack}
               />
+              </button>
+              <button>
               <FontAwesomeIcon
                 className="text-slate-400 hover:text-green-500 cursor-pointer"
                 onClick={editTodo}
                 icon={faPenToSquare}
               />
+              </button>
+              <button>
               <FontAwesomeIcon
                 className="text-slate-400 hover:text-red-500 cursor-pointer"
                 onClick={deleteTodo}
                 icon={faTrash}
               />
+              </button>
             </div>
           </div>
         </div>
