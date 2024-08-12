@@ -180,7 +180,7 @@ export default function JournalWidget({
           </div>
         </div>
 
-        <div className="flex -mt-1 flex-col pb-2 items-center gap-5">
+        <div className="flex flex-col pb-2 items-center gap-[.7rem]">
           <button onClick={() => {
               setSelectedJournalId(dateOfJournal._id);
               editJournal();
