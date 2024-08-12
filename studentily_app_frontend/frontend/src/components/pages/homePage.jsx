@@ -18,8 +18,9 @@ export default function HomePage() {
   return (
     <>
       <button
-        className="fixed z-[800] outline-none min-1350:hidden top-4 right-4 m-2 p-2 bg-gray-800 text-white rounded-full"
+        className="fixed z-[800] min-1350:hidden top-4 right-4 m-2 p-2 bg-gray-800 text-white rounded-full"
         onClick={toggleSidebar}
+        tabindex="0"
       >
         <FontAwesomeIcon
           icon={faBars}
