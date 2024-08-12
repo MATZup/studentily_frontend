@@ -103,9 +103,8 @@ export default function NotesPage() {
         className="fixed -bottom-1 -right-[38rem] max-960:w-[79rem] max-767:w-[74rem] max-650:w-[70rem] max-465:w-[64rem] max-385:w-[61rem] max-350:w-[59rem] z-[-50] max-w-[84rem] overflow-hidden pl-16 pr-16 aspect-[16/9]"
       />
 
-      <button className="max-580:hidden fixed left-0 top-0 p-8">
+      <button onClick={() => navigate("/")} className="max-580:hidden fixed left-0 top-0 p-8">
         <FontAwesomeIcon
-          onClick={() => navigate("/")}
           className="w-[2.1rem] h-[2.1rem] cursor-pointer"
           icon={faArrowLeft}
         />
