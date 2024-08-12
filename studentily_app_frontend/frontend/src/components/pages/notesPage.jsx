@@ -103,13 +103,13 @@ export default function NotesPage() {
         className="fixed -bottom-1 -right-[38rem] max-960:w-[79rem] max-767:w-[74rem] max-650:w-[70rem] max-465:w-[64rem] max-385:w-[61rem] max-350:w-[59rem] z-[-50] max-w-[84rem] overflow-hidden pl-16 pr-16 aspect-[16/9]"
       />
 
-      <div className="max-580:hidden fixed left-0 top-0 p-8">
+      <button className="max-580:hidden fixed left-0 top-0 p-8">
         <FontAwesomeIcon
           onClick={() => navigate("/")}
           className="w-[2.1rem] h-[2.1rem] cursor-pointer"
           icon={faArrowLeft}
         />
-      </div>
+      </button>
 
       <button
         className="fixed z-[800] outline-none min-1350:hidden top-4 right-4 m-2 p-2 bg-gray-800 text-white rounded-full"
