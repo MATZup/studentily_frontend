@@ -172,13 +172,13 @@ export default function TodosPage() {
         alt=""
         className="fixed -bottom-1 -right-[34rem] max-960:w-[75rem] max-768:w-[70rem] max-650:w-[65rem] max-465:w-[60rem] max-385:w-[58rem] max-350:w-[56rem] z-[-50] max-w-[83rem] overflow-hidden pl-16 pr-16 aspect-[16/9]"
       />
-      <div className="max-580:hidden absolute left-0 top-0 p-8">
+      <button className="max-580:hidden absolute left-0 top-0 p-8">
         <FontAwesomeIcon
           onClick={() => navigate("/")}
           className="w-[2.1rem] h-[2.1rem] cursor-pointer"
           icon={faArrowLeft}
         />
-      </div>
+      </button>
 
       <button
         className="fixed z-[800] outline-none min-1350:hidden top-4 right-4 m-2 p-2 bg-gray-800 text-white rounded-full"
