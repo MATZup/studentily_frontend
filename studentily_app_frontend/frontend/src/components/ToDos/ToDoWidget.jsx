@@ -97,10 +97,10 @@ export default function ToDoWidget({
                   onClick={handleCheck}
                 />
               ) : (
-                <div
+                <button
                   className="p-[.55rem] mr-1 rounded-full border border-[#948cd3] h-4 w-4 flex items-center justify-center cursor-pointer hover:border-green-500"
                   onClick={handleCheck}
-                ></div>
+                ></button>
               )}
               <div>
                 <h5 className="text-sm text-white text-left font-medium break-all">
