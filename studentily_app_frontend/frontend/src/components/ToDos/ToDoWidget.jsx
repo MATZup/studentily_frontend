@@ -117,7 +117,7 @@ export default function ToDoWidget({
               </div>
             </div>
 
-            <div className="flex items-center pl-3 justify-center gap-4">
+            <div className="flex items-center pl-3 mr-1 justify-center gap-4">
               <button>
               <FontAwesomeIcon
                 className={`${
