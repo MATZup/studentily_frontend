@@ -118,28 +118,25 @@ export default function ToDoWidget({
             </div>
 
             <div className="flex items-center pl-3 mr-1 justify-center gap-4">
-              <button>
+              <button onClick={pinnedTodo}>
               <FontAwesomeIcon
                 className={`${
                   isPinned
                     ? "text-[#948cd3]"
                     : "text-slate-400 hover:text-[#948cd3]"
                 } cursor-pointer`}
-                onClick={pinnedTodo}
                 icon={faThumbtack}
               />
               </button>
-              <button>
+              <button onClick={editTodo}>
               <FontAwesomeIcon
                 className="text-slate-400 hover:text-green-500 cursor-pointer"
-                onClick={editTodo}
                 icon={faPenToSquare}
               />
               </button>
-              <button>
+              <button onClick={deleteTodo}>
               <FontAwesomeIcon
                 className="text-slate-400 hover:text-red-500 cursor-pointer"
-                onClick={deleteTodo}
                 icon={faTrash}
               />
               </button>
