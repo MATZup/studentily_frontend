@@ -154,17 +154,16 @@ export default function JournalWidget({
             {moment(dateOfJournal).format("Do MMM YYYY")}
           </span>
         </div>
-        <div className="pl-2 pr-[.17rem]">
+        <button onClick={pinnedJournal} className="pl-2 pr-[.17rem]">
           <FontAwesomeIcon
             className={`${
               isPinned
                 ? "text-[#948cd3]"
                 : "text-slate-400 hover:text-[#948cd3]"
             }`}
-            onClick={pinnedJournal}
             icon={faThumbtack}
           />
-        </div>
+        </button>
       </div>
 
       <div className="flex justify-between">
@@ -182,20 +181,22 @@ export default function JournalWidget({
         </div>
 
         <div className="flex -mt-1 flex-col pb-2 items-center gap-5">
-          <FontAwesomeIcon
-            className="text-slate-400 hover:text-green-500"
-            onClick={() => {
+          <button onClick={() => {
               setSelectedJournalId(dateOfJournal._id);
               editJournal();
               setShowCloseButton(true); // Show close button
-            }}
+            }}>
+          <FontAwesomeIcon
+            className="text-slate-400 hover:text-green-500"
             icon={faPenToSquare}
           />
+          </button>
+          <button onClick={deleteJournal}>
           <FontAwesomeIcon
             className="text-slate-400 hover:text-red-500"
-            onClick={deleteJournal}
             icon={faTrash}
           />
+          </button>
         </div>
       </div>
     </div>
