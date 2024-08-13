@@ -48,7 +48,7 @@ export default function InputTags({ tags, setTags }) {
 
       <div className="flex items-center gap-4">
         <input
-          tabindex="8"
+          tabindex="0"
           type="text"
           className="w-[10rem] between-767-960:w-[8.5rem] text-sm w-text-sm px-2 py-1 rounded text-white bg-[#2D3046] outline-none"
           placeholder="Add Tags"
@@ -57,7 +57,7 @@ export default function InputTags({ tags, setTags }) {
           onKeyDown={KeyDownHandler}
         />
         <button
-          tabindex="9"
+          tabindex="0"
           className="flex items-center"
           onClick={() => {
             createTag();
