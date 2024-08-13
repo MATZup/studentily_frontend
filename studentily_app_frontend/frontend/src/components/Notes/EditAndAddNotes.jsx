@@ -102,6 +102,7 @@ export default function EditAndAddNotes({
 
         <div className="flex text-start flex-col gap-2 mt-5">
           <input
+            tabindex="7"
             type="text"
             className="text-2xl text-white bg-[#191A27] outline-none"
             placeholder="Title..."
@@ -112,6 +113,7 @@ export default function EditAndAddNotes({
 
         <div className="flex flex-col gap-2 mt-4">
           <textarea
+            tabindex="8"
             type="text"
             className="text-sm max-650:max-h-[21rem] max-465:max-h-[18rem] max-385:max-h-[14rem] text-[#dfdfdf] rounded-xl outline-none bg-[#2D3046] p-3"
             placeholder="Content..."
@@ -134,6 +136,7 @@ export default function EditAndAddNotes({
           {error && <p className="text-red-600 text-xs pt-3">{error}</p>}
 
           <button
+            tabindex="11"
             className="right-0 font-medium max-960:w-[7.5rem] w-[10rem] text-white rounded-full hover:bg-[#877fc5] transition-all p-1 bg-[#726AB1]"
             onClick={noteAddHandler}
           >
