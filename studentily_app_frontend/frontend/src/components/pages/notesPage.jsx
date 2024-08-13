@@ -103,7 +103,7 @@ export default function NotesPage() {
         className="fixed -bottom-1 -right-[38rem] max-960:w-[79rem] max-767:w-[74rem] max-650:w-[70rem] max-465:w-[64rem] max-385:w-[61rem] max-350:w-[59rem] z-[-50] max-w-[84rem] overflow-hidden pl-16 pr-16 aspect-[16/9]"
       />
 
-      <button onClick={() => navigate("/")} className="max-580:hidden fixed left-0 top-0 p-8">
+      <button tabindex="1" onClick={() => navigate("/")} className="max-580:hidden fixed left-0 top-0 p-8">
         <FontAwesomeIcon
           className="w-[2.1rem] h-[2.1rem] cursor-pointer"
           icon={faArrowLeft}
@@ -166,6 +166,7 @@ export default function NotesPage() {
 
       <div className="fixed bottom-12 left-0 w-full flex justify-center pointer-events-none">
         <button
+          tabindex="5"
           onClick={() => {
             setShowOpenEditAddModal({ isShown: true, type: "add", data: null });
           }}
