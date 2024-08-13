@@ -76,7 +76,7 @@ export default function NotesWidget({
             {moment(dateOfNote).format("Do MMM YYYY")}
           </span>
         </div>
-        <button tabindex="2" onClick={pinnedNote} className="pl-2 pr-[.19rem]">
+        <button tabindex="3" onClick={pinnedNote} className="pl-2 pr-[.19rem]">
           <FontAwesomeIcon
             className={`${
               isPinned
@@ -99,13 +99,13 @@ export default function NotesWidget({
         </div>
 
         <div className="flex flex-col items-center gap-[.75rem]">
-          <button tabindex="3" onClick={editNote}>
+          <button tabindex="4" onClick={editNote}>
           <FontAwesomeIcon
             className="text-slate-400 hover:text-green-500"
             icon={faPenToSquare}
           />
           </button>
-          <button tabindex="4" onClick={deleteNote}>
+          <button tabindex="5" onClick={deleteNote}>
           <FontAwesomeIcon
             className="text-slate-400 hover:text-red-500"
             icon={faTrash}
