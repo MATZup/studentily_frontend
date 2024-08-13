@@ -393,9 +393,9 @@ function EditAndAddJournal({
         id="wrapper_button_tags"
         className="flex max-465:flex-col max-465:items-start max-465:gap-4 items-center justify-between mt-4"
       >
-        <div className="">
+        <button tabindex="9" className="">
           <InputTags tags={tags} setTags={setTags} />
-        </div>
+        </button>
         {error && (
           <p className="text-red-600 min-465:p-2 text-xs pt-3 max-960:pt-0">
             {error}
@@ -405,6 +405,7 @@ function EditAndAddJournal({
         <div className="flex items-center">
           {showCloseButton && (
             <button
+              tabindex="10"
               className="cursor-pointer flex items-center mr-2"
               onClick={handleClearAndClose}
             >
@@ -416,6 +417,7 @@ function EditAndAddJournal({
           )}
 
           <button
+            tabindex="11"
             className="right-0 max-960:w-[7.5rem] font-medium w-[10rem] text-white rounded-full hover:bg-[#877fc5] transition-all p-1 bg-[#726AB1]"
             onClick={journalAddHandler}
           >
