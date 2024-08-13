@@ -154,7 +154,7 @@ export default function JournalWidget({
             {moment(dateOfJournal).format("Do MMM YYYY")}
           </span>
         </div>
-        <button onClick={pinnedJournal} className="pl-2 pr-[.17rem]">
+        <button tabindex="3" onClick={pinnedJournal} className="pl-2 pr-[.17rem]">
           <FontAwesomeIcon
             className={`${
               isPinned
@@ -181,7 +181,7 @@ export default function JournalWidget({
         </div>
 
         <div className="flex flex-col pb-2 items-center gap-[.7rem]">
-          <button onClick={() => {
+          <button tabindex="1" onClick={() => {
               setSelectedJournalId(dateOfJournal._id);
               editJournal();
               setShowCloseButton(true); // Show close button
@@ -191,7 +191,7 @@ export default function JournalWidget({
             icon={faPenToSquare}
           />
           </button>
-          <button onClick={deleteJournal}>
+          <button tabindex="1" onClick={deleteJournal}>
           <FontAwesomeIcon
             className="text-slate-400 hover:text-red-500"
             icon={faTrash}
