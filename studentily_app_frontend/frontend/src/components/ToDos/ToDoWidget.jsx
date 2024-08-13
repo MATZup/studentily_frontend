@@ -90,12 +90,14 @@ export default function ToDoWidget({
         >
           <div className="flex justify-between items-center">
             <div className="flex gap-3 items-center">
+              <button tabindex="3">
               {isChecked ? (
                 <FontAwesomeIcon
                   className="text-[#84C6A0] mr-1 h-5 w-5 cursor-pointer"
                   icon={faCheckCircle}
                   onClick={handleCheck}
                 />
+              </button>
               ) : (
                 <button
                   tabindex="3"
