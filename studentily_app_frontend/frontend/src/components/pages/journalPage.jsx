@@ -174,6 +174,7 @@ export default function JournalPage() {
                 className="w-full md:w-[42%] flex flex-col items-start mb-4 md:mb-0"
               >
                 <button
+                  tabindex="3"
                   className="flex items-center justify-center mb-4 gap-1"
                   onClick={handleSwitchClick}
                 >
