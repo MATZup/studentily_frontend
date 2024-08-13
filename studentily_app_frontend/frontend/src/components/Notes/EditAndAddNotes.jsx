@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState } from "react";
 import InputTags from "../auth/inputFields/InputTags";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
@@ -13,16 +13,10 @@ export default function EditAndAddNotes({
   const [title, setTitle] = useState(dataOfNote?.title || "");
   const [textContent, setTextContent] = useState(dataOfNote?.textContent || "");
   const [tags, setTags] = useState(dataOfNote?.tags || []);
+
   const [error, setError] = useState(null);
 
-  const titleInputRef = useRef(null);
-
-  useEffect(() => {
-    if (titleInputRef.current) {
-      titleInputRef.current.focus();
-    }
-  }, []);
-
+  // Neues Note hinzufügen
   const createNewNote = async () => {
     try {
       const response = await axiosCall.post("/create-note", {
@@ -46,6 +40,7 @@ export default function EditAndAddNotes({
     }
   };
 
+  // Note edit
   const editNote = async () => {
     const noteId = dataOfNote._id;
     try {
@@ -107,7 +102,7 @@ export default function EditAndAddNotes({
 
         <div className="flex text-start flex-col gap-2 mt-5">
           <input
-            ref={titleInputRef} // Setze den Ref auf das Titel-Input-Feld
+            tabindex="7"
             type="text"
             className="text-2xl text-white bg-[#191A27] outline-none"
             placeholder="Title..."
@@ -118,6 +113,7 @@ export default function EditAndAddNotes({
 
         <div className="flex flex-col gap-2 mt-4">
           <textarea
+            tabindex="8"
             type="text"
             className="text-sm max-650:max-h-[21rem] max-465:max-h-[18rem] max-385:max-h-[14rem] text-[#dfdfdf] rounded-xl outline-none bg-[#2D3046] p-3"
             placeholder="Content..."
@@ -140,6 +136,7 @@ export default function EditAndAddNotes({
           {error && <p className="text-red-600 text-xs pt-3">{error}</p>}
 
           <button
+            tabindex="11"
             className="right-0 font-medium max-960:w-[7.5rem] w-[10rem] text-white rounded-full hover:bg-[#877fc5] transition-all p-1 bg-[#726AB1]"
             onClick={noteAddHandler}
           >
