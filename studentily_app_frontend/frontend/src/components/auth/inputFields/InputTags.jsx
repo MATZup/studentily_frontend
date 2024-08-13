@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus, faXmark } from "@fortawesome/free-solid-svg-icons";
 
-export default function InputTags({ tags, setTags }) {
+export default function InputTags({ tags, setTags, inputTabIndex, buttonTabIndex }) {
   const [valueOfInput, setValueOfInput] = useState("");
 
   const changeInputHandler = (e) => {
@@ -35,9 +35,8 @@ export default function InputTags({ tags, setTags }) {
               <span className="font-medium"># </span>
               {tag}
               <button
-                onClick={() => {
-                  removeTagHandler(tag);
-                }}
+                tabindex={buttonTabIndex}
+                onClick={() => removeTagHandler(tag)}
               >
                 <FontAwesomeIcon icon={faXmark} className="ml-1" />
               </button>
@@ -48,7 +47,7 @@ export default function InputTags({ tags, setTags }) {
 
       <div className="flex items-center gap-4">
         <input
-          tabindex="0"
+          tabindex={inputTabIndex}
           type="text"
           className="w-[10rem] between-767-960:w-[8.5rem] text-sm w-text-sm px-2 py-1 rounded text-white bg-[#2D3046] outline-none"
           placeholder="Add Tags"
@@ -57,11 +56,9 @@ export default function InputTags({ tags, setTags }) {
           onKeyDown={KeyDownHandler}
         />
         <button
-          tabindex="0"
+          tabindex={buttonTabIndex}
           className="flex items-center"
-          onClick={() => {
-            createTag();
-          }}
+          onClick={createTag}
         >
           <FontAwesomeIcon
             className="text-xl text-[#726AB1] transform transition-transform duration-[350ms] hover:-rotate-90"
