@@ -170,7 +170,7 @@ export default function NotesPage() {
           onClick={() => {
             setShowOpenEditAddModal({ isShown: true, type: "add", data: null });
           }}
-          className="pointer-events-auto outline-none font-medium w-[7.5rem] text-md h-10 text-white bg-gray-800 rounded-full hover:w-[8.1rem] transition-all ease-in-out"
+          className="pointer-events-auto font-medium w-[7.5rem] text-md h-10 text-white bg-gray-800 rounded-full hover:w-[8.1rem] transition-all ease-in-out"
         >
           Create
         </button>
