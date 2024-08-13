@@ -128,7 +128,10 @@ export default function EditAndAddNotes({
           className="max-465:flex-col max-465:items-start max-465:gap-3 flex items-center justify-between mt-4"
         >
           <div>
-            <InputTags tags={tags} setTags={setTags} />
+            <InputTags
+              inputTabIndex="0"
+              buttonTabIndex="0"
+              tags={tags} setTags={setTags} />
           </div>
 
           {error && <p className="text-red-600 text-xs pt-3">{error}</p>}
