@@ -98,6 +98,7 @@ export default function ToDoWidget({
                 />
               ) : (
                 <button
+                  tabindex="2"
                   className="p-[.55rem] mr-1 rounded-full border border-[#948cd3] h-4 w-4 flex items-center justify-center cursor-pointer hover:border-green-500"
                   onClick={handleCheck}
                 ></button>
@@ -118,7 +119,7 @@ export default function ToDoWidget({
             </div>
 
             <div className="flex items-center pl-3 mr-1 justify-center gap-4">
-              <button onClick={pinnedTodo}>
+              <button tabindex="3" onClick={pinnedTodo}>
               <FontAwesomeIcon
                 className={`${
                   isPinned
@@ -128,13 +129,13 @@ export default function ToDoWidget({
                 icon={faThumbtack}
               />
               </button>
-              <button onClick={editTodo}>
+              <button tabindex="4" onClick={editTodo}>
               <FontAwesomeIcon
                 className="text-slate-400 hover:text-green-500 cursor-pointer"
                 icon={faPenToSquare}
               />
               </button>
-              <button onClick={deleteTodo}>
+              <button tabindex="5" onClick={deleteTodo}>
               <FontAwesomeIcon
                 className="text-slate-400 hover:text-red-500 cursor-pointer"
                 icon={faTrash}
