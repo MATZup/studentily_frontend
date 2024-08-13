@@ -181,7 +181,7 @@ export default function JournalWidget({
         </div>
 
         <div className="flex flex-col pb-2 items-center gap-[.7rem]">
-          <button tabindex="1" onClick={() => {
+          <button tabindex="4" onClick={() => {
               setSelectedJournalId(dateOfJournal._id);
               editJournal();
               setShowCloseButton(true); // Show close button
@@ -191,7 +191,7 @@ export default function JournalWidget({
             icon={faPenToSquare}
           />
           </button>
-          <button tabindex="1" onClick={deleteJournal}>
+          <button tabindex="5" onClick={deleteJournal}>
           <FontAwesomeIcon
             className="text-slate-400 hover:text-red-500"
             icon={faTrash}
