@@ -129,13 +129,13 @@ export default function ToDoWidget({
                 icon={faThumbtack}
               />
               </button>
-              <button tabindex="4" onClick={editTodo}>
+              <button tabindex="5" onClick={editTodo}>
               <FontAwesomeIcon
                 className="text-slate-400 hover:text-green-500 cursor-pointer"
                 icon={faPenToSquare}
               />
               </button>
-              <button tabindex="5" onClick={deleteTodo}>
+              <button tabindex="6" onClick={deleteTodo}>
               <FontAwesomeIcon
                 className="text-slate-400 hover:text-red-500 cursor-pointer"
                 icon={faTrash}
