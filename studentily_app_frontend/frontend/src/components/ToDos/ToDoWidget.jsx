@@ -98,7 +98,7 @@ export default function ToDoWidget({
                 />
               ) : (
                 <button
-                  tabindex="2"
+                  tabindex="3"
                   className="p-[.55rem] mr-1 rounded-full border border-[#948cd3] h-4 w-4 flex items-center justify-center cursor-pointer hover:border-green-500"
                   onClick={handleCheck}
                 ></button>
@@ -119,7 +119,7 @@ export default function ToDoWidget({
             </div>
 
             <div className="flex items-center pl-3 mr-1 justify-center gap-4">
-              <button tabindex="3" onClick={pinnedTodo}>
+              <button tabindex="4" onClick={pinnedTodo}>
               <FontAwesomeIcon
                 className={`${
                   isPinned
