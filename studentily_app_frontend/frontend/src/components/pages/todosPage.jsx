@@ -180,7 +180,7 @@ export default function TodosPage() {
       </button>
 
       <button
-        tabindex="7"
+        tabindex="2"
         className="fixed z-[800] min-1350:hidden top-4 right-4 m-2 p-2 bg-gray-800 text-white rounded-full"
         onClick={toggleSidebar}
       >
@@ -200,7 +200,7 @@ export default function TodosPage() {
         </h1>
         <div className="fixed z-50 bottom-8 w-full max-w-[82rem] mx-auto px-[3rem] max-1350:px-10 max-580:px-4">
           <div className="relative text-start bg-gray-800 rounded-xl p-3">
-            <input tabindex="6"
+            <input tabindex="7"
               type="text"
               className="text-md pr-10 text-white placeholder:text-white bg-gray-800 outline-none w-full "
               placeholder="Create Todo..."
