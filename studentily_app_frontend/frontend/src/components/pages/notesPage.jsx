@@ -167,7 +167,7 @@ export default function NotesPage() {
 
       <div className="fixed bottom-12 left-0 w-full flex justify-center pointer-events-none">
         <button
-          tabindex="5"
+          tabindex="6"
           onClick={() => {
             setShowOpenEditAddModal({ isShown: true, type: "add", data: null });
           }}
