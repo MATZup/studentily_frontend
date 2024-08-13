@@ -79,7 +79,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
               <div className="flex flex-col ">
                 {isDeleteMode ? (
                   <button
-                    tabindex="3"
+                    tabindex="0"
                     className="text-[.7rem] text-black bg-slate-100 h-[1.2rem] w-[6.5rem] rounded-full hover:text-white hover:bg-[#e35c55] mb-[.7rem] mt-[.4rem]"
                     onClick={handleDeleteAccount}
                   >
@@ -87,7 +87,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
                   </button>
                 ) : (
                   <button
-                    tabindex="1"
+                    tabindex="0"
                     className="text-[.7rem] text-black bg-slate-100 h-[1.2rem] w-[3.6rem] rounded-full hover:text-white hover:bg-[#e35c55] mb-[.7rem] mt-[.4rem]"
                     onClick={handleLogout}
                   >
@@ -97,7 +97,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
               </div>
               <div className="flex flex-col">
                 <button
-                  tabindex="2"
+                  tabindex="0"
                   className="text-gray-500 mt-[.4rem]"
                   onClick={toggleMode}
                 >
@@ -120,7 +120,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
       </div>
       <div className="flex flex-col gap-4">
 
-      <button tabindex="4" className="cursor-pointer" onClick={() => navigate("/")}>
+      <button tabindex="0" className="cursor-pointer" onClick={() => navigate("/")}>
           <div className="flex flex-col items-center">
             <img
               className="w-[3.8rem] ml-[5px] hover:rotate-12 transition-all mb-[.3rem]"
@@ -132,7 +132,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
           </div>
       </button>
         
-      <button tabindex="5" className="cursor-pointer mt-2" onClick={() => navigate("/notes")}>
+      <button tabindex="0" className="cursor-pointer mt-2" onClick={() => navigate("/notes")}>
           <div className="flex flex-col items-center">
             <img
               className="w-[1.5rem] hover:rotate-12 transition-all mb-[.3rem]"
@@ -143,7 +143,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
           </div>
       </button>
         
-      <button tabindex="6" className="cursor-pointer" onClick={() => navigate("/pomodoro")}>
+      <button tabindex="0" className="cursor-pointer" onClick={() => navigate("/pomodoro")}>
           <div className="flex flex-col items-center">
             <img
               className="w-[1.7rem] hover:rotate-12 transition-all mb-[.3rem]"
@@ -154,7 +154,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
           </div>
       </button>
         
-      <button tabindex="7" className="cursor-pointer" onClick={() => navigate("/todos")}>
+      <button tabindex="0" className="cursor-pointer" onClick={() => navigate("/todos")}>
           <div className="flex flex-col items-center">
             <img
               className="w-[1.9rem] hover:rotate-12 transition-all mb-[.3rem]"
@@ -165,7 +165,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
           </div>
       </button>
 
-      <button tabindex="8" className="cursor-pointer" onClick={() => navigate("/journal")}>
+      <button tabindex="0" className="cursor-pointer" onClick={() => navigate("/journal")}>
           <div className="flex flex-col items-center">
             <img
               className="w-[1.7rem] hover:rotate-12 transition-all mb-[.3rem]"
