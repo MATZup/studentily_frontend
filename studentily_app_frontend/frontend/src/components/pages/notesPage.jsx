@@ -10,6 +10,9 @@ import { faArrowLeft, faBars } from "@fortawesome/free-solid-svg-icons";
 import notesBgEl from "../images/todos_bg_element.png";
 import Sidebar from "../Sidebar/Sidebar";
 
+// Setze den root element für react-modal
+Modal.setAppElement('#root');
+
 export default function NotesPage() {
   const [showOpenEditAddModal, setShowOpenEditAddModal] = useState({
     isShown: false,
@@ -181,9 +184,11 @@ export default function NotesPage() {
         onRequestClose={() =>
           setShowOpenEditAddModal({ isShown: false, type: "add", data: null })
         }
-        overlayClassName="fixed inset-0 bg-blue-900 bg-opacity-20 flex justify-center items-center z-50"
-        className="customContent"
+        overlayClassName="fixed inset-0 bg-blue-900 bg-opacity-20 z-40"
+        className="fixed inset-1/2 bg-[#191A27] p-6 rounded-lg z-50"
         contentLabel="Edit or Add Note Modal"
+        shouldCloseOnOverlayClick={true}
+        shouldCloseOnEsc={true}
       >
         <EditAndAddNotes
           onClose={() => {
