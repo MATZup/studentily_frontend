@@ -393,7 +393,7 @@ function EditAndAddJournal({
         id="wrapper_button_tags"
         className="flex max-465:flex-col max-465:items-start max-465:gap-4 items-center justify-between mt-4"
       >
-        <button tabindex="9" className="">
+        <button className="">
           <InputTags tags={tags} setTags={setTags} />
         </button>
         {error && (
