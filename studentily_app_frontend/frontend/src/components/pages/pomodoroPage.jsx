@@ -32,7 +32,7 @@ export default function pomodoroPage() {
 
       <button
         tabindex="2"
-        className="fixed z-[800] outline-none min-1350:hidden top-4 right-4 m-2 p-2 bg-gray-800 text-white rounded-full"
+        className="fixed z-[800] min-1350:hidden top-4 right-4 m-2 p-2 bg-gray-800 text-white rounded-full"
         onClick={toggleSidebar}
       >
         <FontAwesomeIcon
