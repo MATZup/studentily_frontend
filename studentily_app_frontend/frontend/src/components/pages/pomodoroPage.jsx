@@ -23,7 +23,7 @@ export default function pomodoroPage() {
 
   return (
     <>
-      <button onClick={() => navigate("/")} className="max-580:hidden absolute left-0 top-0 p-8">
+      <button tabindex="1" onClick={() => navigate("/")} className="max-580:hidden absolute left-0 top-0 p-8">
         <FontAwesomeIcon
           className="w-[2.1rem] h-[2.1rem] cursor-pointer"
           icon={faArrowLeft}
