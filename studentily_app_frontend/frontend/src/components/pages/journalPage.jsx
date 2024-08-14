@@ -134,7 +134,7 @@ export default function JournalPage() {
     <>
       <img
         src={journalBgEl}
-        alt=""
+        alt="journal background-element"
         className="fixed -bottom-2 -left-[14rem] max-1250:w-[82.5rem] max-960:w-[79rem] max-767:w-[73rem] max-650:w-[70rem] max-465:w-[66rem] max-385:w-[63rem] max-350:w-[64rem] z-[-50] max-w-[89rem] overflow-hidden pl-16 pr-16 aspect-[16/9]"
       />
 
@@ -212,7 +212,7 @@ export default function JournalPage() {
                     </div>
                   ) : (
                     <div className="flex flex-col justify-center items-center">
-                      <img className="w-64" src={journalEmoji} alt="" />
+                      <img className="w-64" src={journalEmoji} alt="journal-mascot" />
                       <span className="-mt-2 text-gray-400">
                         By writing a <b>Journal</b> you can reflect, save
                         contents and
