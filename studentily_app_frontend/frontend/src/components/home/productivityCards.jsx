@@ -28,7 +28,7 @@ export default function productivityCards() {
             <img
               className="max-500:w-[2.4rem] max-500:mb-0 w-[3.3rem] mb-[.3rem]"
               src={notesIcon}
-              alt=""
+              alt="notes-icon"
             />
           </div>
         </button>
@@ -48,7 +48,7 @@ export default function productivityCards() {
             <img
               className="max-500:w-[3.2rem] max-500:mb-[1rem] w-[4.4rem] mb-[1.2rem]"
               src={pomodoroIcon}
-              alt=""
+              alt="pomodoro-icon"
             />
           </div>
         </button>
@@ -68,7 +68,7 @@ export default function productivityCards() {
             <img
               className="max-500:w-[3rem] max-500:mb-[.7rem] w-16 mb-[.95rem]"
               src={todosIcon}
-              alt=""
+              alt="todos-icon"
             />
           </div>
         </button>
@@ -88,7 +88,7 @@ export default function productivityCards() {
             <img
               className="max-500:w-[2.3rem] max-500:mb-[.7rem] w-[3.5rem] mb-[.95rem]"
               src={journalIcon}
-              alt=""
+              alt="journal-icon"
             />
           </div>
         </button>
