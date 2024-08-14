@@ -61,7 +61,7 @@ export default function Login({ setIsAuthenticated }) {
         <img
           src={appLogo}
           className="max-580:w-[21rem] max-385:w-[17.5rem] max-327:w-[15.5rem] max-350:w-[16.5rem] max-465:w-[19rem] w-[23rem] max-1060:ml-8 mr-3"
-          alt=""
+          alt="studentily logo"
         />
         <h1 className="max-580:text-2xl max-385:text-xl max-327:w-[15.5rem] max-350:w-[16.5rem] max-465:w-[19rem]">
           Your study helper.
