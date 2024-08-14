@@ -112,7 +112,7 @@ export default function Login({ setIsAuthenticated }) {
           </div>
           <img
             src={loginRegisterEmoji}
-            alt=""
+            alt="what is studentily - illustration"
             className="w-[31rem] max-1200:hidden ml-32"
           />
         </div>
