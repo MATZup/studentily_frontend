@@ -153,7 +153,7 @@ export default function NotesPage() {
                 </div>
               ) : (
                 <div className="flex flex-col mb-56 justify-center items-center">
-                  <img className="w-64" src={notesEmoji} alt="Notes Emoji" />
+                  <img className="w-64" src={notesEmoji} alt="notes-mascot" />
                   <span className="-mt-2 text-center">
                     Create <b>Notes!</b> Just click the <b>Create</b>{" "}
                     Button below.
