@@ -169,7 +169,7 @@ export default function TodosPage() {
     <>
       <img
         src={todosBgEl}
-        alt=""
+        alt="todos background-element"
         className="fixed -bottom-1 -right-[34rem] max-960:w-[75rem] max-768:w-[70rem] max-650:w-[65rem] max-465:w-[60rem] max-385:w-[58rem] max-350:w-[56rem] z-[-50] max-w-[83rem] overflow-hidden pl-16 pr-16 aspect-[16/9]"
       />
       <button tabindex="1" onClick={() => navigate("/")} className="max-580:hidden absolute left-0 top-0 p-8">
