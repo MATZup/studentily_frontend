@@ -70,7 +70,7 @@ export default function Login({ setIsAuthenticated }) {
       <div className="flex flex-col h-[100vh] w-[100vw] items-center justify-center">
         <img
           src={loginRegisterBgEl}
-          alt=""
+          alt="login and registration background-element"
           className="fixed -bottom-[2rem] -left-[24rem] max-1250:w-[82.5rem] max-960:w-[75rem] max-730:w-[58rem] max-650:w-[56rem] max-580:w-[56rem] max-500:w-[55.5rem] max-385:w-[51rem] z-[-50] max-w-[63rem] overflow-hidden pl-16 pr-16"
         />
         <div className="flex max-1200:mt-[7.2rem] max-1200:flex-col mt-[11.7rem] max-580:mt-0">
