@@ -11,8 +11,8 @@ import Sidebar from "../Sidebar/Sidebar";
 
 export default function pomodoroPage() {
   const [displayUnitPage, setDisplayUnitPage] = useState(false);
-  const [workMinutes, setWorkMinutes] = useState(45);
-  const [breakMinutes, setBreakMinutes] = useState(15);
+  const [workMinutes, setWorkMinutes] = useState(25);
+  const [breakMinutes, setBreakMinutes] = useState(5);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const navigate = useNavigate();
